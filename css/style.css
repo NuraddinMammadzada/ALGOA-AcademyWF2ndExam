@@ -1,5 +1,8 @@
+/* header */
 body {
     margin: 0;
+    background-image: url(../images/header-background.jpg);
+
 }
 
 header>div {
@@ -31,9 +34,41 @@ a.img {
 header>div>a:hover {
     color: #0aa380;
 }
+
 a.img:hover {
-color: rgba(168, 168, 168, 0.719);
+    color: rgba(168, 168, 168, 0.719);
 }
+
 a.home:hover {
     color: white;
+}
+
+/* MAIN */
+
+div.big {
+    size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+div.big>h1 {
+    color: white;
+    size: 64px;
+    text-align: center;
+}
+div.big>p {
+    color: white;
+    /* text-align: center; */
+    justify-content: center;
+}
+div.big>a {
+color: white;
+text-decoration: none;
+background-color: #2ab897;
+border: 4px;
+border-radius: 6px;
+padding: 8px 16px;
+justify-content: center;
 }
