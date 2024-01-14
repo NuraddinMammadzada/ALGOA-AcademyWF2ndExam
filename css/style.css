@@ -1,8 +1,6 @@
 /* header */
 body {
     margin: 0;
-    background-image: url(../images/header-background.jpg);
-
 }
 
 header>div {
@@ -44,6 +42,10 @@ a.home:hover {
 }
 
 /* MAIN */
+main {
+    background-image: url(../images/header-background.jpg);
+    padding: 290px;
+}
 
 div.big {
     size: cover;
@@ -58,17 +60,48 @@ div.big>h1 {
     size: 64px;
     text-align: center;
 }
+
 div.big>p {
     color: white;
     /* text-align: center; */
     justify-content: center;
 }
+
 div.big>a {
-color: white;
-text-decoration: none;
-background-color: #2ab897;
-border: 4px;
-border-radius: 6px;
-padding: 8px 16px;
-justify-content: center;
+    color: white;
+    text-decoration: none;
+    background-color: #2ab897;
+    border: 4px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex: 5 5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.p>h6 {
+    color: #00ad85;
+}
+
+div.p>h1 {
+    font-style: bold;
+}
+
+div.p>p {
+    opacity: 0.6;
+}
+
+div.img>img {
+    margin-right: 50px;
+}
+div.p {
+    margin-left: 50px;
+    /* padding: 250px; */
+    padding-left: 50px;
+    padding-right: 150px;
 }
