@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+header>div {
+    display: flex;
+}
+
+h1 {
+    margin-right: 195px;
+    margin-left: 0;
+}
+
+header>div>img {
+  
+}
+header>div>a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
