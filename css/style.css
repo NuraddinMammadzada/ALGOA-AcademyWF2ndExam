@@ -163,10 +163,73 @@ div.p {
 
 
 /* Part3 */
+div.icons {
+    display: flex;
+    gap: 36px;
+}
 
+div.first {
+    margin-left: 80px;
+}
 
+div.third {
+    margin-right: 100px;
+}
+
+div.third>h1 {
+    background-image: url(../images/hexagon-green.svg);
+    background-repeat: no-repeat;
+}
+
+div.third>i {
+    color: white;
+    text-align: center;
+}
 
 /* Part4 */
+ul {
+    list-style-type: square;
+    opacity: 0.3;
+}
+
+div.bord {
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.833);
+}
+
+div.bord>img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+p.lght {
+    opacity: 0.3;
+}
+
+div.h6-h2 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+div.h6-h2>h2 {
+    margin: 0;
+}
+
+div.h2 h2 {
+    margin: 0;
+}
+div.picture {
+    display: flex;
+    margin: 0px 100px;
+    gap: 18px;
+    
+   
+}
+div.picture>img {
+ 
+    
+}
+
 /* @medias */
 @media (max-width: 1000px) {
     .whatweoffer {
