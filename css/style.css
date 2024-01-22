@@ -171,15 +171,16 @@ div.first {
     margin-left: 80px;
 }
 
-div.first>div.qwerty {
-    position: absolute;
-    transform: translate(-50% -50%);
-    size: 64px;
-}
-div.qwerty>img {
+
+
+div.MyIcon {
     position: relative;
-    size: 64px;
 }
+
+div.MyIcon>i {
+    position: absolute;
+}
+
 div.third {
     margin-right: 100px;
 }
