@@ -18,8 +18,9 @@ header {
     left: 0;
     z-index: 1;
     display: flex;
-    padding: 16px;
+    padding: 1rem;
     background-color: #113448;
+    justify-content: space-between;
 }
 
 header>div>a {
